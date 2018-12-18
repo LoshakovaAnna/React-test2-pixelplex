@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { addTextToList  } from '../store/actions';
+import { addTextToList  } from '../store/actions-test1';
 import { Button } from 'react-bootstrap';
 
 import { Container, Row, Col } from 'react-bootstrap';
@@ -17,7 +17,7 @@ class  TestFirst  extends Component {
     render() {
             return (    
            <React.Fragment>  
-               <Container>
+               <Container className="test-container">
                     <Row className="test-title"> 
                         <h2>Test #1</h2>
                     </Row>

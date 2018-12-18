@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { setNewStep, getSavedStep} from '../store/actions';
+import { setNewStep, getSavedStep} from '../store/actions-test2';
 import {  Row, Col, Container } from 'react-bootstrap';
 
 //import List from './List';

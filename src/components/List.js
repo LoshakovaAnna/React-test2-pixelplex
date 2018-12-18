@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Item from './Item';
 import { connect } from 'react-redux';
-
 import { ListGroup } from 'react-bootstrap';
 
 class  List  extends Component {  

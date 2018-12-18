@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import {  bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import {deleteItem } from '../store/actions';
+import { deleteItem } from '../store/actions-test1';
 import { Button, ListGroupItem , Row, Col} from 'react-bootstrap';
 
 class  Item  extends Component {  
