@@ -8,12 +8,12 @@ class  Item  extends Component {
     render() {
         return (     
             <ListGroupItem> 
-                <Row className="show-grid">
-                    <Col> <p className="wide-element"> {this.props.text}</p></Col>
+                <Row className='show-grid'>
+                    <Col> <p className='wide-element'> {this.props.text}</p></Col>
                     <Col>
                         <Button 
-                            className="delet-button" 
-                            value = {this.props.ind}
+                            className='delet-button' 
+                            value = {this.props.index}
                             onClick={this.deletemItem}
                         >
                             delete text

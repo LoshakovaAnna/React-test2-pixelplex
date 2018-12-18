@@ -7,24 +7,17 @@ class  List  extends Component {
     
     render() {
         const arrayList =  this.props.list;
-      ///  console.log(arrayList);
-
-
         var List = arrayList.map(function (el, index){
-           // console.log(el + "render");
             return (         
-                <Item key={index} text={el}  ind={index}/>
+                <Item key={index} text={el}  index={index}/>
             )
         });
-        //console.log(List);
-        return ( 
-            
+        return (
             <div>
                 <h3>List:</h3>
                 <ListGroup> 
                     {List}
-                </ListGroup>
-            
+                </ListGroup>            
             </div>
         );
     };    
@@ -36,6 +29,4 @@ const putStateToProps  = (state) =>{
     };
 };
 
-export default connect(putStateToProps)(List);/*/
-
-export default List;/*/
+export default connect(putStateToProps)(List);

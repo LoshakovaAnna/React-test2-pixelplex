@@ -1,6 +1,6 @@
 export const addTextToList = (newText) =>{
     return {
-        type: 'ADD_TEXT' ,
+        type: 'ADD_TEXT_TO_LIST' ,
         payload: newText
     };
 };

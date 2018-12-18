@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import TestFirst from './TestFirst';
 import TestSecond from './TestSecond';
+import Header from './Header';
+import { Container} from 'react-bootstrap';
 
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import { Container, Row, Col } from 'react-bootstrap';
-
 import { ReducerFirst } from '../store/reducer-test1';
 import { ReducerSecond } from '../store/reducer-test2';
 
@@ -17,20 +17,12 @@ class App extends Component {
     return (
       <div className='container-fluid '>
         <Container>
-          <Row className='header justify-content-md-center'>
-            <Col  md="auto" className="align-self-center">
-                <a className="header-link" href='/'>Home Link</a>
-            </Col> 
-            <Col md="auto"  className="align-self-center">
-                <a className="header-link" href ='https://pixelplex.io '>Pixelplex link</a>
-            </Col>              
-          </Row>
+          <Header />
           <Provider store={storeFirst}>
             <TestFirst /> 
           </Provider>
-
           <Provider store={storeSecond}>
-                  <TestSecond /> 
+            <TestSecond /> 
           </Provider>
         </Container>
       </div>
