@@ -9,8 +9,10 @@
     color: #fff;
 }
 .test-title{
-    height: 60px;
+    height: 50px;
     border: #02373e 2px solid;
+    line-height: 50px;
+    padding-left: 10px;
 }
 .wide-element{
     width: 100%;
@@ -22,15 +24,12 @@
 body{
     font-size: 4rem;
 }
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: darkslategrey;
-    font-size: 5rem;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
 .test-container{
-    min-height: 400px;
+    min-height: 600px;
+}
+.list-container{
+    overflow: auto;
+    max-height: 500px; 
 }
 .slidecontainer {
   width: 100%;
