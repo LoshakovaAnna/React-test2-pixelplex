@@ -13,7 +13,7 @@ class  List  extends Component {
             )
         });
         return (
-            <div>
+            <div className="list-container">
                 <h3>List:</h3>
                 <ListGroup> 
                     {List}
