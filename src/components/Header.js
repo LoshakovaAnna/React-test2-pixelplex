@@ -8,7 +8,7 @@ class Header extends Component {
             <Container>
                 <Row className='header justify-content-md-center'>
                     <Col  md='auto' className='align-self-center'>
-                        <a className='header-link' href='/'>Home Link</a>
+                        <a className='header-link' href='https://loshakovaanna.github.io/React-test2-pixelplex/'>Home Link</a>
                     </Col> 
                     <Col md='auto'  className='align-self-center'>
                         <a className='header-link' href ='https://pixelplex.io '>Pixelplex link</a>
